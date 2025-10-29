@@ -704,6 +704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b8ba623a613f410bb1c8c07c5dc1c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  controlSpeed: 40
 --- !u!1 &796504260
 GameObject:
   m_ObjectHideFlags: 0
