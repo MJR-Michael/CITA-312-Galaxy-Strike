@@ -2,8 +2,12 @@ using UnityEngine;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] GameObject destroyedShipVFX;
+
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log($"Hit{other.name}");
+        Instantiate(destroyedShipVFX, transform.position, Quaternion.identity);
+        Destroy(this.gameObject);
+
     }
 }
