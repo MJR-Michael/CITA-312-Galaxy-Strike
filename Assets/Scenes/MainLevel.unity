@@ -340,13 +340,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: -60}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: 0, y: 25, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 796504261}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1246,6 +1246,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2093145229822643013, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: m_Size.y
+      value: 5.6132736
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093145229822643013, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: m_Size.z
+      value: 8.176758
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093145229822643013, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: m_Center.y
+      value: 6.814579
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093145229822643013, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: m_Center.z
+      value: 0.4116211
+      objectReference: {fileID: 0}
     - target: {fileID: 2829079297507546853, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
       propertyPath: crosshair
       value: 
@@ -1254,6 +1270,26 @@ PrefabInstance:
       propertyPath: targetPoint
       value: 
       objectReference: {fileID: 1762518847}
+    - target: {fileID: 6309449327874819955, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: xClampRange
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309449327874819955, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: yClampRange
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309449327874819955, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: controlSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309449327874819955, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: rotationSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309449327874819955, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
+      propertyPath: controlPitchFactor
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 9130020046169761219, guid: aa755efbf068fcc1cbfdadbadd74ed55, type: 3}
       propertyPath: m_Name
       value: PlayerShip
